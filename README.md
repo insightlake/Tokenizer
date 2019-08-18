@@ -1,6 +1,6 @@
 # Distributed Tokenization
 
-<img style="width:100%;" src="token.jpeg">
+<img style="width:100%;" src="images/token.jpeg">
 
 Companies in finance, healthcare, insurance etc. deal with customer's sensitive data sets like PCI (Payment card industry), PHI (Protected health information), PII (Personally identifying information). They also need to comply with regulations like PCI-DSS, HIPAA etc. Most of the time sensitive data flows between various systems like payment, customer care, collection, risk and even analytics. Because of compliance companies need to encrypt sensitive data in all these systems and implement rigid authentication, audit and access controls. When regulators conduct audit they need to verify all the systems making the process very costly.
 
@@ -40,7 +40,7 @@ Custom
 ## Tokenization Service
 InsightLake tokenization service enables REST endpoints to invoke the service for tokenization and de-tokenization.
 
-<img style="width:100%;" src="token-arch.jpeg">
+<img style="width:100%;" src="images/token-arch.jpeg">
 
 Endpoint needs to pass following parameters to tokenize the data.
 
