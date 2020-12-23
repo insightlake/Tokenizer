@@ -28,14 +28,14 @@ InsightLake Tokenization solution allows companies to leverage scalable token ge
 
 ## Token formats example
 
-NUMERIC_SAME - Replace original value with random numeric with same length
-NUMERIC_SAME_LAST_FOUR - Replace original value with random numeric with same length, keep last 4 digits same
-NUMERIC_SAME_FIRST_FOUR - Replace original value with random numeric with same length, keep first 4 digits same
-ASCII_SAME - Replace original value with random ascii string with same length
-ASCII_SAME_LAST_FOUR - Replace original value with random ascii string with same length, keep last 4 digits same
-ACII_SAME_FIRST_FOUR - Replace original value with random ascii string with same length, keep first 4 digits same
-GUID - 32 Byte random string
-Custom
+- NUMERIC_SAME - Replace original value with random numeric with same length
+- NUMERIC_SAME_LAST_FOUR - Replace original value with random numeric with same length, keep last 4 digits same
+- NUMERIC_SAME_FIRST_FOUR - Replace original value with random numeric with same length, keep first 4 digits same
+- ASCII_SAME - Replace original value with random ascii string with same length
+- ASCII_SAME_LAST_FOUR - Replace original value with random ascii string with same length, keep last 4 digits same
+- ACII_SAME_FIRST_FOUR - Replace original value with random ascii string with same length, keep first 4 digits same
+- GUID - 32 Byte random string
+- Custom
 
 ## Tokenization Service
 InsightLake tokenization service enables REST endpoints to invoke the service for tokenization and de-tokenization.
@@ -44,10 +44,11 @@ InsightLake tokenization service enables REST endpoints to invoke the service fo
 
 Endpoint needs to pass following parameters to tokenize the data.
 
-Endpoint key - secure first time registration key to use the API
-Token format - variety of formats to choose from
-Category - PII, PHI, PCI - for compliance and audit logging
-Data Value
+- Endpoint key - secure first time registration key to use the API
+- Token format - variety of formats to choose from
+- Category - PII, PHI, PCI - for compliance and audit logging
+
+## Data Value
 Tokens are generated using secure mechanisms like completely random generation, one way non reversible hash and other custom proprietary way.
 
 ## Secure Token Vault
@@ -56,7 +57,7 @@ Tokenization service will generate the token based on the format supplied and ke
 ## Tokenization helps in Analytics
 Systems which stores transactions, customer data for analytics don't need PII, PCI data sets other than joining information. Encryption poses a challenge because then for analytics secure keys need to be distributed, which increases risk for sensitive data leakage as well it degrades the performance. Tokenization makes the solution secure without any performance impact.
 
-To learn more, check out [http://insightlake.com/dataexplorer.html](http://insightlake.com/dataexplorer.html)
+To learn more, check out [http://insightlake.com/tokenizer.html](http://insightlake.com/tokenizer.html)
 
 Installation
 ------
@@ -69,7 +70,7 @@ Installation
 
 License
 ------
-InsightLake Data Explorer is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
+InsightLake Tokenizer is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
 
 Getting Help
 ----------
